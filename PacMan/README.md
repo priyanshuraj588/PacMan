@@ -1,18 +1,47 @@
-## Getting Started
+# 🟡 Pac-Man Game (Java)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A simple **Pac-Man clone** built with **Java Swing** for learning and fun.  
+The game features grid-based movement, walls, and smooth controls in a classic retro style.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## 🎮 Features
+- Pac-Man style player movement  
+- Grid-based maze layout  
+- Keyboard controls (Arrow keys)  
+- Lightweight & beginner-friendly Java codebase  
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+---
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## 🚀 Getting Started
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+### Requirements
+- Java JDK 8 or above  
+- Any Java IDE (IntelliJ, Eclipse, or VS Code)
 
-## Dependency Management
+### Run the Game
+```bash
+# Clone the repository
+git clone https://github.com/priyanshuraj588/PacMan.git
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+# Move into the folder
+cd PacMan
+
+# Compile the code
+javac *.java
+
+# Run the game
+java App
+
+📂 Project Structure
+PacMan/
+│── App.java        # Main entry point
+│── PacMan.java     # Game panel & logic
+│── assets/         # Images & resources
+│── README.md       # Documentation
+
+✨ Future Improvements
+Add ghosts (AI enemies)
+Implement scoring & lives system
+Add sound effects and animations
+Create start & pause menus
