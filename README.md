@@ -1,43 +1,61 @@
-🟡 Pac-Man Game (Java)
+# 🟡 Pac-Man Game (Java)
 
-A simple Pac-Man clone built with Java Swing for learning and fun.
-The game features grid-based movement, walls, and smooth controls in a classic retro style.
-🎮 Features
+A simple **Pac-Man clone** built with **Java Swing** for learning and fun.  
+The game features **grid-based movement, walls, and smooth controls** in a classic retro style. 🎮  
 
-    Pac-Man style player movement
-    Grid-based maze layout
-    Keyboard controls (Arrow keys)
-    Lightweight & beginner-friendly Java codebase
+---
 
-🚀 Getting Started
-Requirements
+## ✨ Features
+- 🟨 Pac-Man style player movement  
+- 🧱 Grid-based maze layout  
+- ⌨️ Keyboard controls (Arrow keys)  
+- 💻 Lightweight & beginner-friendly Java codebase  
 
-    Java JDK 8 or above
-    Any Java IDE (IntelliJ, Eclipse, or VS Code)
+---
 
-Run the Game
+## 🚀 Getting Started  
 
-# Clone the repository
-git clone https://github.com/priyanshuraj588/PacMan.git
+### Requirements
+- Java JDK **8 or above**  
+- Any Java IDE (IntelliJ, Eclipse, or VS Code)  
 
-# Move into the folder
+---
+
+### Run the Game  
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/priyanshuraj588/PacMan.git
+
+    Move into the folder
+
 cd PacMan
 
-# Compile the code
-javac *.java
+Compile and Run
 
-# Run the game
-java App
+    javac App.java
+    java App
 
 📂 Project Structure
-PacMan/
-│── App.java        # Main entry point
-│── PacMan.java     # Game panel & logic
-│── assets/         # Images & resources
-│── README.md       # Documentation
 
-✨ Future Improvements
-Add ghosts (AI enemies)
-Implement scoring & lives system
-Add sound effects and animations
-Create start & pause menus
+PacMan/
+ ├── App.java         # Main entry point
+ ├── PacMan.java      # Game logic & rendering
+ ├── assets/          # Images & resources
+ └── README.md        # Project documentation
+
+🎮 Controls
+
+    ⬆️ Up Arrow → Move Up
+
+    ⬇️ Down Arrow → Move Down
+
+    ⬅️ Left Arrow → Move Left
+
+    ➡️ Right Arrow → Move Right
+
+🛠️ Built With
+
+    Java Swing – UI & rendering
+
+    OOP Concepts – Clean, modular code
